@@ -1,0 +1,59 @@
+@mixin for-size($size) {
+    @if $size == phone-only{
+        @media(max-width:576px){
+            @content;
+        }
+    }
+    @else if $size == tablet-portrait-up{
+        @media (min-width:768px){
+            @content;
+        }
+    }
+    @else if $size==tablet-landscape-up{
+        @media(min-width:992px){
+            @content;
+        }
+    }
+    @else if $size == desktop-up{
+        @media (min-width:1200px){
+            @content;
+        }
+    }
+    @else if $size == big-desktop-up{
+        @media (min-width:1200px){
+            @content;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@mixin screen-xs {
+    @media (min-width: 1200px){
+        @content;
+    }
+}
+@mixin screen-lg {
+    @media (min-width: 992px){
+        @content;
+    }
+}
+@mixin screen-md {
+    @media (min-width: 768px){
+        @content;
+    }
+}
+@mixin screen-sm {
+    @media (min-width: 576px){
+        @content;
+    }
+}
+
+

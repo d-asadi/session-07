@@ -1,0 +1,1 @@
+.container{height:100vh;margin:0 auto;background-color:green}@media (max-width: 576px){.container{background-color:orangered}}@media (min-width: 768px){.container{background-color:#635151}}@media (min-width: 992px){.container{background-color:#391758}}@media (min-width: 1200px){.container{background-color:blue}}@media (min-width: 1200px){.container{background-color:chartreuse}}

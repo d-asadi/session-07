@@ -1,0 +1,24 @@
+@import "./mixin";
+.container{
+    // width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(0, 23, 128);
+
+    @include for-size(phone-only){
+            background-color:rgb(172, 88, 57);
+        }
+    @include for-size(tablet-portrait-up){
+            background-color:rgb(65, 107, 185);
+        }
+    @include for-size(tablet-landscape-up){
+            background-color:rgb(29, 1, 1);
+    }
+    @include for-size(desktop-up){
+           background-color:rgb(231, 243, 56);
+    }
+    @include for-size(big-desktop-up){
+           background-color:rgb(239, 62, 245);
+    }
+
+}

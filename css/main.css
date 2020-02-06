@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #001780;
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-color: #ac5839;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    background-color: #416bb9;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    background-color: #1d0101;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    background-color: #e7f338;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    background-color: #ef3ef5;
+  }
+}
+/*# sourceMappingURL=main.css.map */
